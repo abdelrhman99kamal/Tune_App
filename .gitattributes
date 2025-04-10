@@ -1,0 +1,7 @@
+*.dart linguist-language=Dart
+# Ignore native code in GitHub language stats
+android/src/main/cpp/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
